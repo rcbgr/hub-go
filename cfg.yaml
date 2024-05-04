@@ -1,0 +1,11 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/deepmap/oapi-codegen/HEAD/configuration-schema.json
+
+package: hub
+output: client.gen.go
+generate:
+  models: true
+  client: true
+output-options:
+  skip-prune: true
+  nullable-type: true
+  response-type-suffix: Resp
